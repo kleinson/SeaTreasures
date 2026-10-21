@@ -6,10 +6,9 @@
   "author": "Andreas Kleiner",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kleinson/experiments.git",
-    "directory": "SeaTreasures"
+    "url": "https://github.com/kleinson/SeaTreasures.git"
   },
-  "private": true,
+  "private": false,
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",

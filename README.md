@@ -2,7 +2,8 @@
 
 **One sea-shell simulator, from egg to the beach.** An open-source natural-history
 experiment by Andreas Kleiner, part of
-[kleinson/experiments](https://github.com/kleinson/experiments).
+[its own GitHub repository](https://github.com/kleinson/SeaTreasures) and the
+[portfolio experiments](https://kleinson.github.io/Portfolio/experiments).
 
 Pick a species and one of the seas and islands where it has really been
 recorded. Turn the shell, see through it, cut it open,
@@ -60,8 +61,8 @@ npm ci
 npm run dev -- --port 5174 --strictPort
 ```
 
-Open **http://127.0.0.1:5174/seatreasures/**. Add `?species=queen-conch` (or any
-species id) to open a particular shell.
+Open **http://127.0.0.1:5174/SeaTreasures/**. Add `?species=queen-conch` (or
+any species id) to open a particular shell.
 
 For a production preview, including the offline copy:
 
@@ -72,8 +73,9 @@ npm run preview -- --port 5176 --strictPort
 
 After the first load, “Offline ready” means the whole simulator, its 3D
 renderer and its sources are cached. Original source websites still need a
-connection. The default deployment path is `/seatreasures/`; set `BASE_PATH`
-to change it, then serve `dist/`.
+connection. The public simulator is available at
+**https://kleinson.github.io/SeaTreasures/**. The GitHub Pages deployment uses
+`BASE_PATH=/SeaTreasures/`; set `BASE_PATH` to change it, then serve `dist/`.
 
 ## Where it is found
 
